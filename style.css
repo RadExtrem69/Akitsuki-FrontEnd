@@ -4,9 +4,7 @@
   margin: 0;
   padding: 0;
 }
-html,body{
-    overflow-x: hidden;
-}
+
 .bar,li a{
   display: flex;
   justify-content: space-between;
@@ -66,8 +64,8 @@ h1{
   margin: 5%;
 }
 .image-box img{
-  width: 500px;
-  height: 700px;
+  width: 20vw;
+  height: 30vw;
   object-fit: cover;
   display: block;
   margin: 1% auto 3% auto;
@@ -78,14 +76,14 @@ h1{
 }
 .intro .h{
   text-align: left;
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   font-weight: 700;
   letter-spacing: 1.285em;
   margin: 5%;
-  font-style: bold;
 }
 .intro .a{
   text-align: left;
+  font-size: 1vw;
   font-weight: 300;
   letter-spacing: 0.5em;
   margin: 5%;
@@ -109,7 +107,7 @@ h1{
 .intro .f{
   text-align: center;
   display: block;
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-weight: 700;
   letter-spacing: 1.285em;
   text-decoration: none;
