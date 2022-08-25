@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bar,li a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  font-size: 1.2em;
+  color: white;
+  background-color:black;
+}
+
+ul{
+  list-style: none;
+  display: inline-block;
+}
+
+li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+li a, h1{
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+h1{
+  font-size: 2em;
+}
+
+
+.decor{
+  margin: 5% 0 5% 0;
+  width: 100%;
+  height: 70px;
+  background-color: #801F1F;
+}
+.heading{
+  text-align: center;
+  font-size: 50px;
+  margin: -5% 0 -5% 0;
+  letter-spacing: 1.285em;
+}
+.decor p{
+  text-align: center;
+  padding: 25px 0;
+  color: white;
+  letter-spacing: 1.285em;
+}
+
+.image-box{
+  text-align: center;
+  letter-spacing: 1.285em;
+  margin: 5%;
+}
+.image-box img{
+  width: 500px;
+  height: 700px;
+  object-fit: cover;
+  display: block;
+  margin: 1% auto 3% auto;
+}
+.intro{
+  width: 70%;
+  margin: 2em auto;
+}
+.intro .h{
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 1.285em;
+  margin: 5%;
+  font-style: bold;
+}
+.intro .a{
+  text-align: left;
+  font-weight: 300;
+  letter-spacing: 0.5em;
+  margin: 5%;
+}
+.outro{
+  width: 70%;
+  margin: 2em auto 5em auto;
+}
+.outro .h{
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 1.285em;
+  margin: 5%;
+  font-style: bold;
+  color: grey;
+  text-decoration: none;
+  
+}
+
+.intro .f{
+  text-align: center;
+  display: block;
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 1.285em;
+  text-decoration: none;
+  color: black;
+  font-style: bold;
+}
+
+.hover:hover{
+  cursor:pointer;
+  color: red;
+}
