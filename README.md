@@ -1,5 +1,5 @@
 # Akitsuki-FrontEnd
-Responsive Web-Development Design Project.
+A Tribute Page dedicated to Akitsuki Fuuka, made with responsive Web-Development Design.
 
 
 
